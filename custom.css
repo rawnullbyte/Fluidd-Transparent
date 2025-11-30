@@ -1,3 +1,81 @@
+.v-input--switch .v-input--selection-controls__input {
+    width: 52px !important;
+    margin-right: 8px !important;
+}
+
+.v-input--switch .v-input--switch__track {
+    height: 32px !important;
+    width: 52px !important;
+    border-radius: 16px !important;
+    top: calc(50% - 16px) !important;
+    opacity: 1 !important;
+    
+    background-color: rgba(62, 62, 62, 0.4) !important; 
+    border: 2px solid #8e8e8e !important;
+    color: transparent !important;
+    
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.v-input--switch .v-input--switch__thumb {
+    height: 16px !important;
+    width: 16px !important;
+    
+    top: calc(50% - 8px) !important; 
+    
+    transform: translateX(10px) !important; 
+    
+    transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+    
+    background-color: #b0b0b0 !important;
+    elevation: 0 !important;
+    box-shadow: none !important;
+}
+
+
+.v-input--switch.v-input--is-label-active .v-input--switch__track {
+    background-color: var(--v-primary-base) !important;
+    border-color: var(--v-primary-base) !important;
+}
+
+.v-input--switch.v-input--is-label-active .v-input--switch__thumb {
+    height: 24px !important;
+    width: 24px !important;
+    
+    top: calc(50% - 12px) !important;
+    
+    transform: translateX(25px) !important; 
+    
+    background-color: #1a1a1a !important; 
+}
+
+.v-input--selection-controls__ripple {
+    top: calc(50% - 24px) !important;
+    left: -12px !important;
+}
+
+
+
+
+
+.v-tabs-slider-wrapper[style*="height: 48px"] .v-tabs-slider {
+  transform: translateY(4px) !important;
+
+  width: 4px !important;
+  height: 40px !important;
+  border-radius: 4px !important;
+  opacity: 1 !important;
+  margin-left: 4px !important;
+}
+
+.v-tabs-slider-wrapper[style*="height: 2px"] .v-tabs-slider {
+  transform: translateY(-3px) !important;
+  height: 3px !important;
+  border-radius: 4px !important;
+  opacity: 1 !important;
+}
+
 .v-progress-circular__overlay{
     stroke-linecap: round;
 }
