@@ -1,3 +1,15 @@
+.v-progress-circular__overlay{
+    stroke-linecap: round;
+}
+
+tr[data-v-556064d8]:hover,
+.file-list-cursor:hover{
+    background-color: rgb(255 255 255 / 5%)!important;
+}
+tr[data-v-556064d8],
+.file-list-cursor{
+  transition: 0.3s;
+}
 .active-nav-item{
     border-right: 0px !important;
     border-radius: 100pt;
@@ -178,10 +190,11 @@ body {
 }
 
 .v-application .grey.darken-3.v-btn,
-.v-btn,
+.v-btn:not(.warning):not([data-v-029e4e5c]):not(._btn-extruder-cmd):not([style]),
 .v-btn-toggle {
     box-shadow: none!important;
-    background-color: transparent !important;
+    background-color: transparent!important;
+    
 }
 
 .v-progress-circular__underlay {
