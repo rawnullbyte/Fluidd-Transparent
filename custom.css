@@ -426,3 +426,13 @@ x-vue-echarts text{
     border-radius: 20px;
     padding: 0px 20px;
 }
+
+.percentComplete {
+  font-weight: 800;
+}
+
+.percentComplete {
+  font-weight: 800 !important; 
+  font-size: 1.2rem !important; 
+  letter-spacing: 0.5px;
+}
