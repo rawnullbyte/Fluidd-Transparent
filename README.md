@@ -5,4 +5,4 @@
 3. Refresh the page.
 
 ## Preview
-<img width="1845" height="899" alt="image" src="https://github.com/user-attachments/assets/7da629eb-c88b-49f4-ad15-4480c09c7b9d" />
+<img width="1844" height="897" alt="image" src="https://github.com/user-attachments/assets/eff76ca6-06c3-43c7-9016-af9267067d8b" />
